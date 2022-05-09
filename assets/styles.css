@@ -1,75 +1,142 @@
-
 .topnav {
-    background-color: #333;
-    overflow: hidden;
-    display: flex;
-    justify-content: end;
+  background-color: #4caf50;
+  overflow: hidden;
+  display: flex;
+  justify-content: end;
+}
+.container {
+  margin-right: 40px;
+  margin-left: 40px;
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15px;
+}
 
-  }
-  .container{
-      margin-right: 40px;
-      margin-left: 40px;
-      
-  }
-  .topnav a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 15px;
-  }
-  
-  
-  .topnav a:hover {
-    background-color: #ddd;
-    color: rgb(255, 248, 248);
-    
-  }
-  
-  
-  .topnav a.active {
-    
-    color: white;
-  }
+.topnav a:hover {
+  background-color: #ddd;
+  color: rgb(255, 248, 248);
+}
 
-  body{
-    font-family: 'Montserrat', sans-serif;
-  }
+.topnav a.active {
+  color: white;
+}
 
-  .hero{
-      padding-top: 250px;
-      padding-bottom: 250px;
-      background-image: url('img/background.jpg');
-      background-size: cover;
-     
-    }
-  
-  .buttonReadmore{
-    margin-left: 50px;
-    padding: 5px;
-    border-radius: 15px;
-    background-color:rgb(63, 24, 236);
-  }
+body {
+  font-family: "Montserrat", sans-serif;
+}
 
-  .grid-container {
-    display: grid;
-    gap: 50px;
-    grid-template-columns: auto auto auto;
-    background-color: #f40bfc;
-    padding: 10px;
-  }
-  
-  .grid-item {
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 20px;
-    font-size: 15px;
-    text-align: center;
-    margin-left: 50px;
-    background-color: #f40bfc;
-  }
+.hero {
+  padding-top: 250px;
+  padding-bottom: 250px;
+  background-image: url("img/hero.png");
+  background-size: cover;
+}
 
- 
+.hero h1 {
+  color: #4caf50;
+  text-shadow: 2px 2px 4px #29632b;
+  font-size: 70px;
+  margin-top: 0 px;
+  margin-bottom: 0 px;
+}
+.hero h4 {
+  color: #4caf50;
+  text-shadow: 2px 2px 4px #ffff;
+  font-size: 20px;
+}
+.about h2 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
 
-  
+.buttonReadmore {
+  margin-left: 50px;
+  border-radius: 20px;
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.grid-container {
+  display: grid;
+  gap: 50px;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding-top: 20px;
+  font-size: 15px;
+  text-align: center;
+  margin-left: 50px;
+}
+
+.img-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 8%;
+  margin-bottom: 10px;
+}
+
+.grid-item-text p {
+  margin-top: 40px;
+  text-align: justify;
+  line-height: 2;
+}
+.kode-etik {
+  margin-left: 50px;
+}
+.kode-etik li {
+  line-height: 2;
+}
+.divisi {
+  background-image: url("img/bg.jpg");
+  padding-top: 5px;
+}
+.divisi h5 {
+  font-size: 16px;
+  text-align: center;
+  margin-top: 0px;
+}
+.divisiGrid p {
+  text-align: justify;
+  text-justify: inter-word;
+  line-height: 2;
+}
+.footer {
+  background-color: #4caf50;
+  padding: 5px;
+  margin-top: 20px;
+}
+.footer p {
+  text-align: center;
+}
+.grid-container-pendiri {
+  text-align: center;
+}
+.pendiri {
+  line-height: 0.8;
+}
+.pendiri h3 {
+  padding-top: 40px;
+}
+.hero p {
+  margin-left: 50px;
+  color: #4caf50;
+  margin-top: 0px;
+}
